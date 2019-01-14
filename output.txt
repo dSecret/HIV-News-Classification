@@ -1,0 +1,66 @@
+top 10 terms per cluster:
+
+ Cluster 0 
+
+awar
+infect
+health
+hivaid
+women
+test
+sex
+new
+virus
+among
+
+ Cluster 1 
+
+blood
+test
+hospit
+infect
+detect
+case
+report
+posit
+virus
+patient
+
+ Cluster 2 
+
+patient
+centr
+art
+treatment
+test
+hospit
+posit
+district
+drug
+case
+
+ Cluster 3 
+
+children
+school
+parent
+child
+home
+posit
+live
+their
+are
+studi
+
+ Cluster 4 
+
+her
+polic
+his
+was
+woman
+hospit
+he
+posit
+she
+famili
