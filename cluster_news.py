@@ -6,7 +6,9 @@ from nltk.stem.snowball import SnowballStemmer
 from nltk.corpus import stopwords
 from sklearn.cluster import KMeans
 from sklearn.feature_extraction.text import TfidfVectorizer
- 
+# import pylab as pl
+
+
                             # Tokenize text and stem words removing punctuation
 
 def process_text(text, stem=True):
@@ -70,3 +72,14 @@ with open('toi_news_pages.json','r') as news:
 
                             #  3 clusters
 cluster_texts(articles, 5)
+
+# fig = plt.figure()
+# ax = fig.add_subplot(111)
+# scatter = ax.scatter(x,y,c=tfidf_model,s=50)
+# for i,j in centers:
+#     ax.scatter(i,j,s=50,c='red',marker='+')
+# ax.set_xlabel('x')
+# ax.set_ylabel('y')
+# plt.colorbar(scatter)
+
+# fig.show()
